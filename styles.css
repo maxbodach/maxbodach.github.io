@@ -1,0 +1,116 @@
+/* Web 1.0 Style - Simple, clean, responsive */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: white;
+    color: black;
+    font-family: "Courier New", Courier, monospace;
+    font-size: 16px;
+    line-height: 1.6;
+    padding: 20px;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/* ASCII Art */
+.ascii-art {
+    font-size: 10px;
+    line-height: 1.2;
+    overflow-x: auto;
+    margin-bottom: 30px;
+}
+
+/* Headings */
+h1 {
+    font-size: 32px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+h2 {
+    font-size: 20px;
+    font-weight: bold;
+    margin: 20px 0 10px 0;
+}
+
+/* Bio text */
+.bio {
+    margin: 20px 0;
+    line-height: 1.8;
+}
+
+/* Links - Classic blue */
+a {
+    color: #0000EE;
+    text-decoration: underline;
+}
+
+a:visited {
+    color: #551A8B;
+}
+
+a:hover {
+    color: #FF0000;
+}
+
+/* Lists */
+ul {
+    list-style-type: none;
+    margin: 10px 0;
+}
+
+li {
+    margin: 8px 0;
+}
+
+/* Email obfuscation */
+.email {
+    font-family: "Courier New", Courier, monospace;
+    font-weight: bold;
+}
+
+/* Horizontal rules */
+hr {
+    border: none;
+    border-top: 1px solid #000;
+    margin: 30px 0;
+}
+
+/* Footer */
+footer {
+    margin-top: 40px;
+    text-align: center;
+}
+
+/* Mobile responsiveness */
+@media (max-width: 600px) {
+    body {
+        padding: 10px;
+        font-size: 14px;
+    }
+
+    .container {
+        padding: 10px;
+    }
+
+    h1 {
+        font-size: 24px;
+    }
+
+    h2 {
+        font-size: 18px;
+    }
+
+    .ascii-art {
+        font-size: 8px;
+    }
+}
